@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;500&display=swap');
+
+body {
+    background: rgb(30, 61, 68);
+}
+
+/* .mainContent {
+    width: 100%;
+} */
+
+h1 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: #ffffff;
+}
+
+p {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+#projectDesc {
+    text-align: center;
+    padding-bottom: 15px;
+    color: #ffffff;
+}
+
+div .form {
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+div #userEntry {
+    display: block;
+    text-align: center;
+    /* padding: 20px; */
+    width: 460px;
+    margin: 0 auto;
+}
+
+/* p #storedEntry {
+    padding: 100px;
+} */
+
+button {
+    background-color: #643794;
+    color: #ffffff;
+    border: none;
+    width: 105px;
+    height: 30px;
+    border-radius: 6px;
+}
+
+textarea {
+    border: none;
+    border-radius: 8px;
+    min-height: 10em;
+    width: 90%;
+    resize: vertical;
+    /* margin: 20px 0 20px 0; */
+}
+
+textarea[type="textbox"], select {
+    padding: 18px;
+}
+
+.buttons {
+    margin-left: 16.5em;
+    padding-top: 5px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #643794;
+}

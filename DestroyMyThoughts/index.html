@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--ADD jQUERY FIRST!--><script src="jQuery/jquery-3.7.1.js"></script>
+	<script src="jQuery/jquery.js" ></script> <!--LINK JAVASCRIPT AND/OR YOUR JQUERY HERE!-->
+	<link rel="stylesheet" href="css/styles.css" /> <!--LINK CSS HERE!-->
+
+	<meta charset="utf-8" />
+	<title>Destroy My Thoughts</title>
+    </head>
+
+    <body>
+
+        <div class="mainContent">
+
+            <h1>Destroy My Thoughts</h1>
+
+            <p id="projectDesc">Can't focus on anything? Too many thoughts overwhelming your mind? 
+                <br>Write down all your thoughts here and DESTROY THEM TO FEEL BETTER! 
+                <br>Or store them, that's also fine :) ( but destroying them is more fun >:) )</p>
+
+            <div class="form">
+                <form name="overwhelmText" action="#" method="get">
+                    <div>
+                        <textarea type="textbox" id="comment" name="in_comment" rows="5" cols="55" 
+                        placeholder="What's on your mind?"></textarea>
+                        <div class="buttons">
+                            <button type="submit" value="STORE" id="storeBtn" name="b_store">STORE</button>
+                            <button type="reset" value="DELETE" id="deleteBtn" name="b_delete">DELETE</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <!--STORED USER INPUTS-->
+            <div id="userEntry">
+                <p id="storedEntry"></p>
+                <!-- <button type="reset" value="DESTROY" id="destroyBtn" name="b_destroy">DESTROY</button> -->
+            </div>
+        </div>
+        
+
+    </body>
+
+</html>

@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500;600;700&display=swap');
+
+/* :root {
+    --main-color: #2E294E;
+    --main-accent: #D499B9;
+    --second-accent: #221E39;
+} */
+
+
+body {
+    padding: 60px;
+    /* font-family: 'Prompt', sans-serif; */
+    background: #2E294E;
+    color: white;
+}
+
+/* main {
+    padding-left: 75px;
+    padding-right: 50px;
+    padding-top: 25px;
+} */
+
+/* #header { 
+    display: flex;
+    flex-flow:row wrap;
+    justify-content:space-between;
+    align-items:center;
+    
+} */
+
+.content-wrapper {
+    display: flex;
+    flex-flow:row wrap;
+    justify-content:space-between;
+    align-items:center;
+    /* margin: 0; */
+}
+
+p {
+    font-family: 'Prompt', sans-serif;
+    /* font-weight: 500; */
+}
+
+.intro-paragraph {
+    font-weight: 600;
+    font-size: 40px;
+    padding: 30px 100px;
+}
+
+h2 {
+    /* font-family: 'Prompt', sans-serif; */
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+h3, a:link {
+    color: white;
+    /* font-family: 'Prompt', sans-serif; */
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+h3, a:hover {
+    color: #D499B9;
+}
+
+h3, a:visited {
+    color: #D499B9;
+}
+
+/* PROJECTS */
+
+.container {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    /* flex-basis: 0;
+    flex-grow: 2; */
+    justify-content: center;
+    gap: 2em;
+    /* position: relative;
+    width: 50%; */
+}
+
+.project {
+    flex: 1 1 300px; /* Adjust the width based on your design */
+    max-width: 600px; /* Set a maximum width for the images */
+}
+
+.image {
+    /* border-radius: 36px; */
+    width: 100%;
+    height: auto;
+    /* padding: 1em; */
+}
+
+
+/* TOOLKIT */
+.logo-set {
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 0;
+    flex-grow: 2; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    max-width: 700px;
+    margin: 0 auto;
+    gap: 3em;
+    padding-bottom: 70px;
+}
+
+.logo {
+    width: 80%;
+    flex:0 0 25%;
+}
+
+
+/* ---- MAIN NAVIGATION ---- */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Prompt', sans-serif;
+}
+
+#header {
+    background-color: #2E294E; 
+    color: #fff; 
+    padding: 50px;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-logo {
+    max-height: 100px; 
+    list-style-type: none;
+}
+
+#navlist {
+    list-style-type: none;
+    float: right;
+}
+
+li {
+    float: left;
+    margin: 1em;
+}
+
+
+.main-navigation a {
+    text-decoration: none;
+    color: #fff; 
+}
+
+.main-navigation a:hover {
+    color: #D499B9;
+    text-decoration: none;
+}
+
+.main-navigation a:visited {
+    color: #D499B9;
+}
+
+/* ------------------------------ */
+
+
+/* ABOUT ME */
+
+#about-section {
+    padding: 50px;
+}
+
+.image-profile {
+    padding-top: 25px;
+    padding-right: 15px;
+    /* width: 450px; */
+    float: left;
+}
+
+.profile {
+    width: 100%; /* Use percentage for better responsiveness */
+    max-width: 400px; /* Set a maximum width for larger screens */
+    height: auto;
+    /* display: block; */
+    margin-right: 2em;
+}
+
+.about {
+    /* padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 100px; */
+    padding-top: 10px;
+    /* box-sizing: border-box; */
+}
+
+.about-me {
+    font-size: 28px;
+    padding-left: 0;
+}
+
+
+
+/* ---- FORM ---- */
+
+form {
+    background-color: #221E39;
+    margin: 0 auto;
+}
+
+fieldset {
+    border: none;
+}
+
+.contact-me {
+    position: relative;
+}
+
+#contact {
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;   
+}
+
+.socials {
+    padding-bottom: 25px;
+    /* float: left; */
+}
+
+.contact-paragraph {
+    /* margin-top: -1em;  */
+    font-size: 30px;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.github-logo {
+    padding-right: 20px;
+}
+
+
+
+/* .form-info {
+    margin-left: 5em;
+    margin-right: 7em;
+    float: right;
+}
+
+input[type=text], select, textarea {
+    width: 90%;
+    padding: 18px;
+    border: none;
+    border-radius: 6px;
+    resize: vertical;
+}
+
+input {
+    margin: 10px 0 10px 0;
+    width: 90%;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 500;
+    color: #D0D0D0;
+}
+
+textarea {
+    margin: 20px 0 20px 0;
+    width: 90%;
+    min-height: 20em;
+}
+
+
+button {
+    background-color: #D499B9;
+    color: #2E294E;
+    border: none;
+    border-radius: 9px;
+    font-size: 25px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 700;
+    width: 245px;
+    height: 70px;
+}
+
+button:hover {
+    background-color: #9055A2;
+    color: white;
+} */
+
+
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+/* ---- RESPONSIVE LAYOUT ---- */
+
+/* TABLET VERSION */
+@media screen and (max-width:768px) {
+
+    /* .main-navigation {
+        display: none; 
+    } */
+
+    #navlist {
+        flex-direction: column; 
+        text-align: center; 
+        padding-top: 10px; 
+    }
+
+    #navlist li {
+        margin-bottom: 10px; 
+    }
+
+    #navlist a {
+        display: block; /* Make the links full-width for better tap/click area */
+        padding: 10px; /* Add some padding for better tap/click experience */
+    }
+
+    .project {
+        flex-basis: 100%; /* Set full width for smaller screens */
+    }
+
+
+    /* ABOUT ME */
+    .image-profile {
+        padding-right: 45px;
+        padding-bottom: 10px;
+    }
+
+    .about {
+        padding-left: 100px;
+        padding-right: 75px;
+        padding-bottom: 100px;
+    }
+
+    .about-me {
+        font-size: 28px;
+        /* padding-left: 15px; */
+    }
+
+
+
+}
+
+
+/* PHONE VERSION */
+@media screen and (max-width:480px) {
+    
+    body {
+        font-size: 10px; 
+    }
+
+    .intro-paragraph {
+        font-weight: 600;
+        font-size: 14px;
+        padding: 10px 30px;
+    }
+
+    #navlist {
+        flex-direction: column; 
+        text-align: center; 
+        padding-top: 10px; 
+    }
+
+
+    .project {
+        flex-basis: 90%; /* Set full width for smaller screens */
+    }
+    
+    .image-profile {
+        padding-right: 45px;
+    }
+
+    .about {
+        padding-left: 75px;
+        padding-right: 75px;
+        padding-bottom: 100px;
+    }
+
+    .about-me {
+        font-size: 28px;
+        /* padding-left: 5px; */
+    }
+
+
+}
