@@ -88,7 +88,7 @@ h3, a:visited {
 }
 
 .project {
-    flex: 2 1 300px; /* Adjust the width based on your design */
+    flex: 1 1 300px; /* Adjust the width based on your design */
     max-width: 600px; /* Set a maximum width for the images */
 }
 
