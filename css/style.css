@@ -95,7 +95,7 @@ h3, a:visited {
 .image {
     /* border-radius: 36px; */
     width: 100%;
-    height: auto;
+    /* height: auto; */
     /* padding: 1em; */
 }
 
