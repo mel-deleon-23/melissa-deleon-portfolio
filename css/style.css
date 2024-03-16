@@ -78,7 +78,7 @@ h3, a:visited {
 .container {
     display: flex;
     /* flex-direction: row; */
-    flex-wrap: wrap;
+    flex-wrap: row wrap;
     /* flex-basis: 0;
     flex-grow: 2; */
     justify-content: center;
